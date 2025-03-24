@@ -1,5 +1,5 @@
 {
-  "name": "test-neon-mcp-server-waiku",
+  "name": "test-neon-mcp-server-waku",
   "version": "0.0.0",
   "type": "module",
   "private": true,

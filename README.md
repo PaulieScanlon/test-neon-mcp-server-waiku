@@ -1,6 +1,6 @@
 # Test Neon MCP Server in React Server Components
 
-This repository uses [Waiku](https://waku.gg/) and React Server Components to demonstrate how to use Neon's MCP Server with the Anthropic API and a custom chat interface.
+This repository uses [waku](https://waku.gg/) and React Server Components to demonstrate how to use Neon's MCP Server with the Anthropic API and a custom chat interface.
 
 You can read more about this experiment on my blog: [How to use Neon's MCP Server with React Server Components](https://paulie.dev)
 
