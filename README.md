@@ -1,6 +1,8 @@
 # Test Neon MCP Server in React Server Components
 
-This repository uses [Waiku](https://waku.gg/) and React Server Components to demonstrate how to use Neon's MCP Server with a custom chat interface.
+This repository uses [Waiku](https://waku.gg/) and React Server Components to demonstrate how to use Neon's MCP Server with the Anthropic API and a custom chat interface.
+
+You can read more about this experiment on my blog: [How to use Neon's MCP Server with React Server Components](https://paulie.dev)
 
 ## Getting Started
 
@@ -17,6 +19,18 @@ npm install
 ```shell
 npm run dev
 ```
+
+## 💬 Chat
+
+There are two components required to test Neon's MCP server with the Anthropic API. They are detailed below.
+
+### Chat Component (server only)
+
+The `<Chat />` Component located in `src/components/chat.tsx` is responsible for handling the server-side requests.
+
+### ChatForm Component (client only)
+
+The `<ChatForm />` Component located in `src/components/chat-form.txt` is responsible for handling the `textarea` input, and sending the message to the server.
 
 ## Helpful Links
 
