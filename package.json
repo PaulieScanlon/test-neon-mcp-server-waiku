@@ -1,0 +1,30 @@
+{
+  "name": "test-neon-mcp-server-waiku",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "waku dev",
+    "build": "waku build",
+    "start": "waku start"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "@smithery/sdk": "^1.0.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-server-dom-webpack": "19.0.0",
+    "waku": "0.21.23",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.12",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.12",
+    "typescript": "5.8.2"
+  }
+}
